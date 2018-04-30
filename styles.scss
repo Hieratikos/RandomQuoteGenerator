@@ -1,0 +1,89 @@
+
+@import "templateProjectPageHeader";
+body {
+    background-color: #FF7E5F;
+    font-family: $fontBody;
+    font-weight: 400;
+}
+a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #351C4D;
+    margin:4em 0;
+    display: block;
+    font-size:1.4em;
+}
+a:hover{
+    color: #765285;
+}
+.quote-box {
+    border-radius: 3px;
+    position: relative;
+    margin: auto;
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: #FEB47B;
+}
+.quote-text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.75em;
+}
+#text:after {
+    display: inline;
+    font-family: FontAwesome;
+    content: '\f10e';
+    padding-left: 10px;
+}
+#text:before{
+    display: inline;
+    font-family: FontAwesome;
+    content: '\f10d';
+    padding-right: 10px;
+    font-size: inherit;
+}
+.quote-author {
+    width: 450px;
+    height: auto;
+    clear: both;
+    padding-top: 20px;
+    font-size: 1em;
+    text-align: right;
+}
+.buttons {
+    width: 450px;
+    margin: auto;
+    display: inline-block;
+}
+.button {
+    height: 38px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #351C4D;
+    outline: none;
+    font-size: 0.85em;
+    padding: 8px 18px 6px 18px;
+    margin-top: 30px;
+    opacity: 1;
+    cursor: pointer;
+}
+.buttons :hover {
+    opacity: 0.9;
+}
+#new-quote {
+    float: right;
+    color: #F5AB99;
+}
+#tweet-quote {
+    float: left;
+    padding: 0;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 5px;
+    height: 30px;
+    width: 40px;
+    color: #F5AB99;
+}
